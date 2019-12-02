@@ -1,3 +1,6 @@
-const num = 1
+let num = 1
 
-console.log(num)
+for (let i = 0; i < 10; i++) {
+  console.log(`${num} eslint + prettier + yarn`)
+  num += i
+}
